@@ -20,6 +20,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
     <!-- Put your site title here -->
     <title>Rasula Yadithya | Fullstack Developer</title>
@@ -233,8 +234,29 @@
                 development. I am currently looking for internship
                 opportunities.
               </p>
+
               <!-- Provide a link to your resume -->
-              <a href="#" class="btn">My Resume</a>
+
+              <!-- Trigger/Open The Modal -->
+              <a id="myBtn" class="btn">My Resume</a>
+
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Resume</h2>
+                  </div>
+                  <div class="modal-body">
+                    <embed
+                      src="cv.pdf#toolbar=0&navpanes=0"
+                      width="800px"
+                      height="2100px"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="about__photo-container">
@@ -253,7 +275,9 @@
         <h2>Get in Touch</h2>
         <div class="contact__info">
           <p>
-            Hi there, I'm currently on the lookout for internship opportunities to further develop my skills. Reach out to me if you think I'm the right fit. Or if you'd just like to say hi, get in touch!!!
+            Hi there, I'm currently on the lookout for internship opportunities
+            to further develop my skills. Reach out to me if you think I'm the
+            right fit. Or if you'd just like to say hi, get in touch!!!
           </p>
           <!-- Replace the email with yours -->
           <a href="mailto:wrasula@gmail.com" class="btn">wrasula@gmail.com</a>
